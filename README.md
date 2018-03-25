@@ -20,3 +20,9 @@ Classifier is ready
  ![Негативный отзыв](https://img-fotki.yandex.ru/get/1022004/26569126.0/0_18dd16_74587e45_orig.png)
  
  ![Позитивный отзыв](https://img-fotki.yandex.ru/get/1025205/26569126.0/0_18dd18_85590b05_orig.png)
+
+# Модель
+Здесь как раз минимум сложностей
+в файле pipeline_log.pkl упакован pickle файл с sklern-овским pipelin-ом, в котором последовательно векторизатор и логистическая регрессия.
+Для удобства работы создан файл sentiment_classifier.py, в котором написан класс SentimentClassifier для упрощения использования модели.
+Проект сделан в рамках прохождения курса [Анализ данных: финальный проект](https://www.coursera.org/learn/data-analysis-project/home/welcome) by Moscow Institute of Physics and Technology & Yandex
